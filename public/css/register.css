@@ -1,0 +1,221 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #eac926;
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+  text-align: center;
+}
+
+.logo-meli {
+  width: 100%;
+  height: 100%;
+}
+
+.search-header {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: #ebebeb;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+ul li {
+  margin-left: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.fa-bars {
+  color: white;
+  background-color: blue;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+.burger-menu {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.imgBanner {
+  width: 100%;
+}
+
+img {
+  width: 90%;
+}
+
+.div-header-top {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-navegador {
+  display: none;
+}
+
+.div-nav-navegador {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.div-footer {
+  padding: 15px;
+}
+
+footer {
+  padding-top: 30px;
+  background-color: white;
+}
+
+footer i {
+  width: 2;
+  height: 2;
+  color: blue;
+}
+
+footer p,
+footer h3 {
+  color: grey;
+  text-align: center;
+}
+
+footer div div i {
+  font-size: 2em;
+}
+
+footer h5 {
+  text-align: center;
+  font-size: 10px;
+  color: grey;
+}
+
+footer div div {
+  padding: 10px;
+}
+
+.div-icon {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.containterCuotas {
+  padding-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.containterCuotasTablet {
+  display: none;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+}
+
+.registro {
+  margin: 10px;
+  background-color: #ebebeb;
+}
+
+.formulario-registro {
+  width: 100%;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+form input {
+  margin: 4px;
+  margin-bottom: 7px;
+  border-radius: 5px;
+  border: 0;
+  outline: none;
+}
+
+.datos {
+  margin-top: 10px;
+  margin-left: 4px;
+}
+
+.botones {
+  text-align: center;
+}
+
+.div-perfil {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.div-check {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.div-secciones-interes {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 361px) {
+}
+
+@media (min-width: 769px) {
+  .nav-navegador {
+    display: inherit;
+    padding-bottom: 20px;
+  }
+
+  .containterCuotasTablet {
+    display: inherit;
+  }
+
+  .burger-menu {
+    display: none;
+  }
+
+  form {
+    align-items: center;
+    width: 100%;
+  }
+
+  form input {
+    margin-left: 10px;
+  }
+
+  .div-perfil {
+    width: 50%;
+  }
+
+  .div-secciones-interes {
+    flex-direction: row;
+  }
+}
